@@ -1,0 +1,40 @@
+Fritar um ovo Portugol
+
+Algoritmo do Programa
+
+(Se apresentar ao usuário)
+1 - Receber a informação de quantos ovos o usuário deseja fritar
+2 - Esperar a frigideira no fogo esquentar
+3 - Informar que os ovos já estão fritando
+4 - Aguardar 4 segundos para fritura (***)
+5 - Informar ao usuário que o ovo está pronto.
+6 - Receber  informação de quantas pitadas de sal o usuário deseja em seu ovo frito (1 = 0.40 g) + Trazer quantidade de sal adc
+7 - Colocar o ovo no prato para servir
+8 - Informar ao usuário que a comida está pronta.
+9 - Agradecer e finalizar o programa.
+
+
+Versão 1.0
+var
+ ovos : inteiro
+ sal : real
+ pitadas : real
+
+Inicio
+ Escreval ("Olá! Seja bem vindo(a) ao seu programa que frita ovos! Espero que esteja com fome, vamos começar!")
+ Escreval ("Para comessarmos, me informe quantos ovos sua fome esta pedindo hoje :")
+ Leia (ovo)
+ Escreval ("Ótimo! ", ovo, " ovos saindo no capricho!")
+ Escreval("Esperando a frigideira esquentar...Colocando Oléo...Pegando uma colher...")
+ Escreval ("Fritando o ovo(s)")
+ Escreval("Ótima notícia, o ovo(s) está pronto!")
+ Escreval("Quantas pitadas de sal você gostaria de colocar em seu prato?")
+ leia (pitadas)
+ sal <- (0.40*pitadas)
+ Escreval ("Quantidade de sal adicionada em Gramas: ", sal,"g")
+ Escreval ("Colocando o ovo no prato...Pegando um bom garfo...")
+ Escreval ("Prontinho!Seu prato está pronto e temperado do jeito que você gosta!")
+ Escreval ("Agora vou limpar a cozinha, adeus ;)!")
+
+* Melhorias: 
+ *Entre a linha 15 e 16, adicionar a funcionalidade no sistema de aguarda que o usuário clique para poder parar o processo de fritura.

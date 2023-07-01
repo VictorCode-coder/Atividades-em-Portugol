@@ -1,0 +1,4 @@
+2 - O melhor aluno da turma:
+* O user deverá informar quantos alunos têm em sala
+* O nome e a nota de cada um deles
+* E ao final, o código deve informar o nome e a nota do aluno que possui a maior nota
